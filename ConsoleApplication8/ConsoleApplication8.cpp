@@ -48,7 +48,7 @@ int main()
 
     tuple<JSONToken, int, std::string>my;
       my = lex_number(str, 0);
-         cout << get<0>(my).value;
+         cout << get<0>(my).location;
  
 
 
